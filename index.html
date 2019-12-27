@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Codepen Link Shortner</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato'>
+<link rel='stylesheet' href='https://fontawesome.io/assets/font-awesome/css/font-awesome.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="shortner">
+   <div class="logo">
+      <img src="https://production-assets.codepen.io/assets/logos/codepen-logo-0b07553e128f9be6a5f2e8a3f80a08f2772c2f56c054d78091ee82f6f3f02727.svg" alt="" />
+      Link shortner, paste in link.
+   </div>
+   <div class="textboxcontainer">
+      <div class="textbox" contenteditable="true"></div>
+      <i class="fa fa-clipboard" aria-hidden="true"  data-clipboard-target=".link" title="Copy Link"></i>
+      <input type="text" class="link" />
+   </div>
+   <p class="error"></p>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

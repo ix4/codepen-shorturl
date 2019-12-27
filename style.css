@@ -1,0 +1,46 @@
+body {
+  background: #191919;
+  font-family: "Lato", "Lucida Grande","Lucida Sans Unicode", Tahoma, Sans-Serif;
+  color: #fff;
+}
+body .shortner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: calc(100% - 120px);
+  max-width: 400px;
+}
+body .shortner .logo {
+  margin: 0 2px;
+}
+body .shortner .textboxcontainer {
+  display: flex;
+}
+body .shortner .textboxcontainer .textbox {
+  flex-grow: 1;
+  height: 20px;
+  line-height: 20px;
+  border: 1px solid #222222;
+  background-color: #000000;
+  margin-top: 10px;
+  padding: 2px;
+  outline: none;
+}
+body .shortner .textboxcontainer .fa-clipboard {
+  height: 20px;
+  line-height: 20px;
+  margin-left: 4px;
+  margin-top: 13px;
+}
+body .shortner .textboxcontainer .link {
+  position: fixed;
+  top: 120vh;
+}
+body .shortner .error {
+  position: absolute;
+  top: 100%;
+  color: #D8334A;
+  margin: 0 2px;
+}
